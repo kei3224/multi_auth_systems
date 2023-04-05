@@ -32,7 +32,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -66,7 +66,7 @@
         </div>
       </li>
 
-      <!-- Messages Dropdown Menu -->
+      {{-- <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="far fa-comments"></i>
@@ -123,9 +123,10 @@
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
         </div>
-      </li>
+      </li> --}}
+
       <!-- Notifications Dropdown Menu -->
-      <li class="nav-item dropdown">
+      {{-- <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="far fa-bell"></i>
           <span class="badge badge-warning navbar-badge">15</span>
@@ -150,7 +151,9 @@
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
         </div>
-      </li>
+      </li> --}}
+      
+      <!-- Expand Button -->
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
@@ -171,6 +174,7 @@
   <!-- End Main Sidebar Container -->
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+    
     <!-- Content Header (Page header) -->
     <!-- <div class="content-header">
       <div class="container-fluid">
